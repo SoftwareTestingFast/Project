@@ -51,7 +51,9 @@ your test suite as your application develops or progresses.
 ## The difference between AI, ML, and DL
 
 Artificial intelligence: Ability of a machine to develop its own intelligence.
+
 Machine learning: Ability of a machine to use algorithms by which it can automatically learn from data and experience.
+
 Deep learning: Ability of a machine to learn via algorithms which mimic the human brain.
 
 ## AI in Automation Testing
