@@ -102,6 +102,15 @@ Machine learning is creating a strong impact on software testing. The process of
 5. **Test Script:** Software testers will find it difficult to determine the number of tests required when a code has been altered. The automated testing tools based on artificial intelligence predict whether an application requires multiple tests or not. 
 There are two benefits of running tests using AI. You can stop running tests unnecessarily and save more time. It is convenient to analyze the overall performance of a system without repeating the test scripts. Hence, you do not have to monitor it every time manually.
 6. **Robotic Test Automation:** Robotic process automation (RPA) refers to a software that performs repetitive business processes without any human interaction.It helps in automating existing interfaces in IT systems and maintains them completely. RPA scans the screen, navigates the systems, and later identifies and gathers data.The tasks are performed solely by the bots and the tests can be done using the web, desktop, or mobile applications. It helps set up test data and run regression tests. The main advantages of RPA are: scalability, codeless testing, cost savings, increased productivity, accurate results and flexibility
+#### Final Words:
+Almost half of the test procedures can be automated using artificial intelligence. Testers can make use of machine learning to teach systems to detect errors that may go undetected using manual testing. By using AI in your test automation, you can achieve accurate results in a shorter time. You can save time as AI takes care of most of the test process.However, you must understand the business process, test scenarios, test scripts, and how to run the tests using artificial intelligence.
+
+# DeepChecks
+DeepChecks is the leading tool for testing and for validating your machine learning models and data, and it enables doing so with minimal effort. Deepchecks accompanies you through various validation and testing needs such as verifying your data’s integrity, inspecting its distributions, validating data splits, evaluating your model and comparing between different models.
+
+## When Should you use Deepchecks?
+Deepchecks has many built-in checks and suites that can help validating various points throughout the research phase. Of course, every research process has its unique steps and challenges, and therefore all checks and suites can easily customized. Alongside that, we have identified that there are several recurring scenarios, that each have their own needs and characteristics.
+
 
 
 
