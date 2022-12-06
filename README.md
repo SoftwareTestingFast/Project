@@ -56,6 +56,8 @@ Machine learning: Ability of a machine to use algorithms by which it can automat
 
 Deep learning: Ability of a machine to learn via algorithms which mimic the human brain.
 
+![Screenshot](4.jpeg)
+
 ## AI in Automation Testing
 
 Applications of AI in Intelligent Test Automation in General:
@@ -129,6 +131,8 @@ Each check can have two types of results:
 2. A return value that can be used for validating the expected check results
 
 ## Hierarchy 
+![Screenshot](2.jpeg)
+
 ## How does it Work ? 
 Deepchecks is built of checks, each designated to help to identify a specific issue. Some checks relate only to the data and labels and some require also the model. Suites are composed of checks. A Suite runs a collection of Checks with optional Conditions added to them. Each check contains outputs to display in a notebook and/or conditions with a pass/fail/warning output.
 ## What Do You Need in Order to Start?
