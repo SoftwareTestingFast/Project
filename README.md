@@ -94,7 +94,7 @@ Users of Browserstack can run automated tests using a variety of languages and f
 
 # Machine Learning and Artificial Intelligence for Test Automation
 Machine learning is creating a strong impact on software testing. The process of a software tester is either manual or automated. Manual testers find it difficult to work on the same process and review documents constantly. Many testers and QA teams are incorporating test automation in their companies. Machine learning is benefitting manual testers by simplifying their tasks. This helps companies produce higher quality and quantity of work in a shorter time.Hence, it is important for manual testers to learn automation testing. This method of testing helps save time and money. It also helps increase test coverage, improve the accuracy, and morale of the QA team. Through automation testing, developers and testers get the opportunity to work as a team. In short, automation does the job better than manual testing.However, there are certain things to consider in test automation while applying artificial intelligence (AI) and machine learning.
-# 6 Things to Consider When Applying Machine Learning & AI in Test Automation
+## 6 Things to Consider When Applying Machine Learning & AI in Test Automation
 1. **UI Testing:** Visual testing is a quality assurance activity of software developers. They evaluate whether the application appears and performs the way it was intended for the end-user. It is important to know the kinds of patterns machine learning can recognize. Hence, a traditional machine vision system may require a serious inspection while reading complex surface textures and image quality. Therefore, A deep learning tool or system is, therefore, better suited for visual inspection of web or mobile applications. It provides rapid and accurate results.
 2. **API Testing:** API testing is a type of software testing that enables communication and data exchange between two software systems.While testing at the API level, you need a higher degree of technical expertise and tools to get comprehensive test coverage.Therefore, it is important to consider whether testers have intimate knowledge of different application interfaces.Through AI, you can convert manual UI tests into automated API tests which take care of all the heavy lifting work
 3. **Domain Knowledge:** Having domain expertise is crucial in software testing. Whether it is manual or automated testing, with artificial intelligence you can test the applications better. For example, writing test scripts in codes using Java, Python, C# can be challenging. In automated testing, advanced tools help testers develop codes and test scripts. With AI, machines can write flawless codes themselves
@@ -112,6 +112,33 @@ DeepChecks is the leading tool for testing and for validating your machine learn
 Deepchecks has many built-in checks and suites that can help validating various points throughout the research phase. Of course, every research process has its unique steps and challenges, and therefore all checks and suites can easily customized. Alongside that, we have identified that there are several recurring scenarios, that each have their own needs and characteristics.
 
 ![Screenshot](1.jpeg)
+## Which Type of Checks Exits?
+They are checks for different phases in the ML workflow:
+1. Data Integrity
+2. Train-Test Validation (Distribution, Drift and Methodology Checks)
+3. Model Performance Evaluation
+## Checks:
+Each check enables you to inspect a specific aspect of your data and models. They are the basic building block of the deepchecks package, covering all kinds of common issues, such as:
+1. Weak Segments Performance
+2. Train Test Feature Drift
+3. Date Train Test Leakage Overlap
+4. Conflicting Labels
+Each check can have two types of results:
+
+1. A visual result meant for display (e.g. a figure or a table).
+2. A return value that can be used for validating the expected check results
+
+## Hierarchy 
+## How does it Work ? 
+Deepchecks is built of checks, each designated to help to identify a specific issue. Some checks relate only to the data and labels and some require also the model. Suites are composed of checks. A Suite runs a collection of Checks with optional Conditions added to them. Each check contains outputs to display in a notebook and/or conditions with a pass/fail/warning output.
+## What Do You Need in Order to Start?
+Depending on your phase and what you wish to validate, you’ll need a subset of the following:
+1. Raw data (before pre-processing such as OHE, string processing, etc.), with optional labels
+2. The model’s training data with labels
+3. Test data (which the model isn’t exposed to) with labels
+4. A supported model that you wish to validate, including: scikit-learn, XGBoost, PyTorch, and more.
+
+
 
 
 
