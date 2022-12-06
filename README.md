@@ -111,7 +111,7 @@ DeepChecks is the leading tool for testing and for validating your machine learn
 ## When Should you use Deepchecks?
 Deepchecks has many built-in checks and suites that can help validating various points throughout the research phase. Of course, every research process has its unique steps and challenges, and therefore all checks and suites can easily customized. Alongside that, we have identified that there are several recurring scenarios, that each have their own needs and characteristics.
 
-
+![Screenshot](1.jpeg)
 
 
 
