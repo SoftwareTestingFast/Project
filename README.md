@@ -131,9 +131,9 @@ Each check can have two types of results:
 2. A return value that can be used for validating the expected check results
 
 ## Hierarchy 
-<p align="center">
+
 ![Screenshot](2.jpeg)
-</p>
+
 ## How does it Work ? 
 Deepchecks is built of checks, each designated to help to identify a specific issue. Some checks relate only to the data and labels and some require also the model. Suites are composed of checks. A Suite runs a collection of Checks with optional Conditions added to them. Each check contains outputs to display in a notebook and/or conditions with a pass/fail/warning output.
 ## What Do You Need in Order to Start?
