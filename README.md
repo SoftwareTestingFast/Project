@@ -90,41 +90,34 @@ Users of Browserstack can run automated tests using a variety of languages and f
 
 # Machine Learning in Test Automation
 
-The discipline of data science, which is continually expanding, needs machine learning. In order to educate computers to provide categorization or predictions, statistical approaches
-are applied, providing crucial insights into data mining activities. Then, with the use of these
-insights, software and corporate decision-making are affected, hopefully affecting important
-growth indicators.Machine learning mimics human learning by using data and algorithms,
-gradually improving its accuracy.According to Forbes, organisations that have used machine
-learning and AI-enabled technologies have seen a dramatic rise in consumer satisfaction.
-Writing test scripts with the necessary input values and running them to get the results
-involves using testing tools (like Selenium). The tool will handle the remainder of the testing
-process; the only manual work required is defining the test case as a computer script.
-Despite its advantages, test automation has a disadvantage in that it need continuous
-monitoring when testing software is updated. ML steps in to take control of this problem; it
-assists in automatically creating and updating test cases, identifying mistakes, and
-enhancing the current code scope. As a result, it helps businesses do more work of greater
-quality and quantity in less time.
-Additionally, the use of machine learning in test automation makes it possible to run every
-change and input through QA. It would take a lot of time and money to accomplish this
-through manual testing or even test automation.
-Working on machine learning
-Without relying on an existing equation to serve as a model, machine learning employs
-computational techniques to learn information directly from data.
+The discipline of data science, which is continually expanding, needs machine learning. In order to educate computers to provide categorization or 
+predictions, statistical approaches are applied, providing crucial insights into data mining activities. Then, with the use of these insights, software 
+and corporate decision-making are affected, hopefully affecting important growth indicators.Machine learning mimics human learning by using data and 
+algorithms, gradually improving its accuracy.According to Forbes, organisations that have used machinelearning and AI-enabled technologies have seen 
+dramatic rise in consumer satisfaction.
+
+1- Writing test scripts with the necessary input values and running them to get the results involves using testing tools (like Selenium). The tool will handle the remainder of the testing process; the only manual work required is defining the test case as a computer script. 
+
+2- Despite its advantages, test automation has a disadvantage in that it need continuous monitoring when testing software is updated. ML steps in to take control of this problem; 
+
+3-It assists in automatically creating and updating test cases, identifying mistakes, and enhancing the current code scope. As a result, it helps businesses do more work of greater quality and quantity in less time.
+
+Additionally, the use of machine learning in test automation makes it possible to run every change and input through QA. It would take a lot of time and 
+money to accomplish this through manual testing or even test automation. Working on machine learning Without relying on an existing equation to serve as 
+a model, machine learning employs computational techniques to learn information directly from data.
+
 These are the three crucial elements of machine learning:
 
-# A Decision Process
+## A Decision Process
 Ml algorithms are frequently employed in decision processes to provide
 predictions or categorizations. The algorithms will estimate a trend in the data based on a
 certain data input, which may or may not be indicated.
-error function : An error function is used to examine the predictions made by the model. If
-known cases exist, an error function may compare them to assess how accurate the model
-is.
 
-# Model optimization
-If the model did well on the training data sets, weights are changed to
-reduce the gap between the model prediction and the outstanding example. The algorithm
-would automatically update settings as it continued to assess and optimise the process until
-a limit was reached.
+## Error Function 
+An error function is used to examine the predictions made by the model. If known cases exist, an error function may compare them to assess how accurate the model is.
+
+## Model optimization
+If the model did well on the training data sets, weights are changed to reduce the gap between the model prediction and the outstanding example. The algorithm would automatically update settings as it continued to assess and optimise the process until a limit was reached.
 
 # Automated Machine Learning
 The way that organisations of all sizes see data science and machine learning has
@@ -147,15 +140,19 @@ scripts. They are employed in the assessment phase following the post-execution 
 entails examining data, trends, and business repercussions.
 Understanding why ML should be used in automation testing is crucial before delving
 further into how it may assist at each stage of the test automation process:
- Aspects that are either modifiable by definition or modified by the developers
+
+1- Aspects that are either modifiable by definition or modified by the developers
 usually affect how well mobile and web applications test.
- Testing stability may be jeopardised if changes are made to the data upon which the
+
+2- Testing stability may be jeopardised if changes are made to the data upon which the
 test is based or, more frequently, if enhancements are made directly to the
 application.
- Non-ML testing scripts cannot instantly adapt to and deal with the changes indicated
+
+3- Non-ML testing scripts cannot instantly adapt to and deal with the changes indicated
 above since they are static. This inability to adapt results in test errors, flaky/brittle
 checks, build failures, unreliable test data, and other problems.
 a few ways that machine learning might assist the development teams include:
+
 1. Handle large amounts of test data: Organizations that use continuous testing
 through Agile development run numerous test types every day. Units, API,
 functionality, accessibility, integration, and other testing formats are all included in
@@ -176,6 +173,7 @@ teams now employ the feature flags strategy to gradually reveal new features and
 hide them in the event of an issue. By automatically evaluating and contrasting
 certain releases based on specified datasets and approval criteria, ML algorithms
 may make such choices easier to reach.
+
 3. Increase test validity Every time a new version of the application being tested is
 delivered for review or new features are added, test engineers typically struggle to
 maintain the scripts current in standard test automation tools.A test automation
@@ -203,6 +201,7 @@ do more work of higher quality in a shorter amount of time.
 
 # Machine Learning and Artificial Intelligence for Test Automation
 Machine learning is creating a strong impact on software testing. The process of a software tester is either manual or automated. Manual testers find it difficult to work on the same process and review documents constantly. Many testers and QA teams are incorporating test automation in their companies. Machine learning is benefitting manual testers by simplifying their tasks. This helps companies produce higher quality and quantity of work in a shorter time.Hence, it is important for manual testers to learn automation testing. This method of testing helps save time and money. It also helps increase test coverage, improve the accuracy, and morale of the QA team. Through automation testing, developers and testers get the opportunity to work as a team. In short, automation does the job better than manual testing.However, there are certain things to consider in test automation while applying artificial intelligence (AI) and machine learning.
+
 ## 6 Things to Consider When Applying Machine Learning & AI in Test Automation
 1. **UI Testing:** Visual testing is a quality assurance activity of software developers. They evaluate whether the application appears and performs the way it was intended for the end-user. It is important to know the kinds of patterns machine learning can recognize. Hence, a traditional machine vision system may require a serious inspection while reading complex surface textures and image quality. Therefore, A deep learning tool or system is, therefore, better suited for visual inspection of web or mobile applications. It provides rapid and accurate results.
 2. **API Testing:** API testing is a type of software testing that enables communication and data exchange between two software systems.While testing at the API level, you need a higher degree of technical expertise and tools to get comprehensive test coverage.Therefore, it is important to consider whether testers have intimate knowledge of different application interfaces.Through AI, you can convert manual UI tests into automated API tests which take care of all the heavy lifting work
@@ -213,6 +212,7 @@ There are two benefits of running tests using AI. You can stop running tests unn
 6. **Robotic Test Automation:** Robotic process automation (RPA) refers to a software that performs repetitive business processes without any human interaction.It helps in automating existing interfaces in IT systems and maintains them completely. RPA scans the screen, navigates the systems, and later identifies and gathers data.The tasks are performed solely by the bots and the tests can be done using the web, desktop, or mobile applications. It helps set up test data and run regression tests. The main advantages of RPA are: scalability, codeless testing, cost savings, increased productivity, accurate results and flexibility
 #### Final Words:
 Almost half of the test procedures can be automated using artificial intelligence. Testers can make use of machine learning to teach systems to detect errors that may go undetected using manual testing. By using AI in your test automation, you can achieve accurate results in a shorter time. You can save time as AI takes care of most of the test process.However, you must understand the business process, test scenarios, test scripts, and how to run the tests using artificial intelligence.
+
 
 # DeepChecks
 DeepChecks is the leading tool for testing and for validating your machine learning models and data, and it enables doing so with minimal effort. Deepchecks accompanies you through various validation and testing needs such as verifying your data’s integrity, inspecting its distributions, validating data splits, evaluating your model and comparing between different models.
